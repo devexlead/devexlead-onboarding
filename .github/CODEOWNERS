@@ -1,0 +1,8 @@
+# This file is used by GitHub to identify the owners of different areas of the repository.
+# For more information on how CODEOWNERS works, see:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# The below pattern (*) matches all files in the repo,
+# assigning the user @leandromonaco as the owner.
+
+* @leandromonaco

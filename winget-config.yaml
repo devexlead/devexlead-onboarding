@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  assertions:
+    - resource: Microsoft.Windows.Developer/OsVersion
+      directives:
+        description: Verify min OS version requirement
+        allowPrerelease: true
+      settings:
+        MinVersion: '10.0.22631'
+        
+  resources:
+  
+    - resource: Microsoft.Windows.Developer/DeveloperMode
+      directives:
+        description: Enable Developer Mode
+        allowPrerelease: true
+      settings:
+        Ensure: Present
+        
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vsPackage
+      directives:
+        description: Install Visual Studio 2022 Community
+        allowPrerelease: true
+      settings:
+        id: Microsoft.VisualStudio.2022.Community
+        source: winget
+        
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vscodePackage
+      directives:
+        description: Install Visual Studio Code
+        allowPrerelease: true
+      settings:
+        id: Microsoft.VisualStudioCode
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: dotnetCore9
+      directives:
+        description: Install .NET Core 9 SDK
+        allowPrerelease: true
+      settings:
+        id: Microsoft.DotNet.SDK.9
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: gitPackage
+      directives:
+        description: Install Git
+      settings:
+        id: Git.Git
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: githubDesktopPackage
+      directives:
+        description: Install GitHub Desktop
+      settings:
+        id: GitHub.GitHubDesktop
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: nvmPackage
+      directives:
+        description: Install NVM for Windows
+      settings:
+        id: CoreyButler.NVMforWindows
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: redisInsightPackage
+      directives:
+        description: Install RedisInsight
+      settings:
+        id: XP8K1GHCB0F1R2
+        source: msstore
+    
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: noSqlWorkbenchPackage
+      directives:
+        description: Install Amazon NoSQL Workbench
+      settings:
+        id: Amazon.NoSQLWorkbench
+        source: winget
+    
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: sqlServerManagementStudioPackage
+      directives:
+        description: Install Microsoft SQL Server Management Studio (SSMS)
+      settings:
+        id: Microsoft.SQLServerManagementStudio
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: dockerDesktopPackage
+      directives:
+        description: Install Docker Desktop
+        allowPrerelease: true
+      settings:
+        id: Docker.DockerDesktop
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: obsidianPackage
+      directives:
+        description: Install Obsidian
+        allowPrerelease: true
+      settings:
+        id: Obsidian.Obsidian
+        source: winget
+
+  configurationVersion: 0.2.0
