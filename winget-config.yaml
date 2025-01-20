@@ -110,4 +110,13 @@ properties:
         id: Obsidian.Obsidian
         source: winget
 
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: shareXPackage
+      directives:
+        description: Install ShareX
+        allowPrerelease: true
+      settings:
+        id: ShareX.ShareX
+        source: winget
+        
   configurationVersion: 0.2.0

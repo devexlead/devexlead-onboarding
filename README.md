@@ -40,6 +40,7 @@ Here’s the list of applications that will be installed (based on the `winget-c
 9. **Microsoft SQL Server Management Studio (SSMS)**
 10. **Docker Desktop**
 11. **Obsidian**
+11. **ShareX**
  
 Here’s the list of applications that will be installed (based on the `post-install.ps1`):
 
