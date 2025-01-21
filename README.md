@@ -41,6 +41,7 @@ Here’s the list of applications that will be installed (based on the `winget-c
 10. **Docker Desktop**
 11. **Obsidian**
 11. **ShareX**
+12. **Nuget CLI**
  
 Here’s the list of applications that will be installed (based on the `post-install.ps1`):
 

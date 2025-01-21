@@ -118,5 +118,14 @@ properties:
       settings:
         id: ShareX.ShareX
         source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: nugetPackage
+      directives:
+        description: Install NuGet
+        allowPrerelease: true
+      settings:
+        id: Microsoft.NuGet
+        source: winget
         
   configurationVersion: 0.2.0
