@@ -42,6 +42,15 @@ Here’s the list of applications that will be installed (based on the `winget-c
 11. **Obsidian**
 11. **ShareX**
 12. **Nuget CLI**
+13. **TreeSize**
+14. **WinMerge**
+15. **PowerShell**
+16. **JanDeDobbeleer.OhMyPosh**
+17. **7Zip**
+18. **GIMP**
+19. **OBSStudio**
+19. **Slack**
+
  
 Here’s the list of applications that will be installed (based on the `post-install.ps1`):
 

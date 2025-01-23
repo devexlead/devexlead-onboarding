@@ -4,7 +4,7 @@ properties:
     - resource: Microsoft.Windows.Developer/OsVersion
       directives:
         description: Verify min OS version requirement
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         MinVersion: '10.0.22631'
         
@@ -13,7 +13,7 @@ properties:
     - resource: Microsoft.Windows.Developer/DeveloperMode
       directives:
         description: Enable Developer Mode
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         Ensure: Present
         
@@ -21,7 +21,7 @@ properties:
       id: vsPackage
       directives:
         description: Install Visual Studio 2022 Community
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Microsoft.VisualStudio.2022.Community
         source: winget
@@ -30,7 +30,7 @@ properties:
       id: vscodePackage
       directives:
         description: Install Visual Studio Code
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Microsoft.VisualStudioCode
         source: winget
@@ -39,7 +39,7 @@ properties:
       id: dotnetCore9
       directives:
         description: Install .NET Core 9 SDK
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Microsoft.DotNet.SDK.9
         source: winget
@@ -96,7 +96,7 @@ properties:
       id: dockerDesktopPackage
       directives:
         description: Install Docker Desktop
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Docker.DockerDesktop
         source: winget
@@ -105,7 +105,7 @@ properties:
       id: obsidianPackage
       directives:
         description: Install Obsidian
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Obsidian.Obsidian
         source: winget
@@ -114,7 +114,7 @@ properties:
       id: shareXPackage
       directives:
         description: Install ShareX
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: ShareX.ShareX
         source: winget
@@ -123,9 +123,72 @@ properties:
       id: nugetPackage
       directives:
         description: Install NuGet
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         id: Microsoft.NuGet
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: treeSizePackage
+      directives:
+        description: Install TreeSize
+        allowPrerelease: false
+      settings:
+        id: JAMSoftware.TreeSize.Free
+        source: winget
+        
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: winMergePackage
+      directives:
+        description: Install WinMerge
+        allowPrerelease: false
+      settings:
+        id: WinMerge.WinMerge
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: powerShellPackage
+      directives:
+        description: Install PowerShell
+        allowPrerelease: false
+      settings:
+        id: Microsoft.PowerShell
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: ohMyPoshPackage
+      directives:
+        description: Install OhMyPosh
+        allowPrerelease: false
+      settings:
+        id: JanDeDobbeleer.OhMyPosh
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: 7zipPackage
+      directives:
+        description: Install 7zip
+        allowPrerelease: false
+      settings:
+        id: 7zip.7zip
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: gIMPPackage
+      directives:
+        description: Install GIMP
+        allowPrerelease: false
+      settings:
+        id: GIMP.GIMP
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: oBSStudioPackage
+      directives:
+        description: Install OBSStudio
+        allowPrerelease: false
+      settings:
+        id: OBSProject.OBSStudio
         source: winget
         
   configurationVersion: 0.2.0
