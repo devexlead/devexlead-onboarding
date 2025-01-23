@@ -14,9 +14,14 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension AmazonWebServices.aws-toolkit-vscode
 code --install-extension GitHub.copilot-chat
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension GitHub.vscode-github-actions
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-playwright.playwright
 code --install-extension ms-vscode.PowerShell
+code --install-extension eamodio.gitlens
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension DavidAnson.vscode-markdownlint
 code --Postman.postman-for-vscode
 
 # IIS features

@@ -183,12 +183,22 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: oBSStudioPackage
+      id: sysinternalsPackage
       directives:
-        description: Install OBSStudio
+        description: Install Sysinternals
         allowPrerelease: false
       settings:
-        id: OBSProject.OBSStudio
+        id: Microsoft.Sysinternals
         source: winget
-        
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: sQLiteStudioPackage
+      directives:
+        description: Install SQLiteStudio
+        allowPrerelease: false
+      settings:
+        id: PawelSalawa.SQLiteStudio
+        source: winget
+         
+
   configurationVersion: 0.2.0

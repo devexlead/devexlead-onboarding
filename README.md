@@ -1,16 +1,16 @@
 # Development Environment Setup with WinGet
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) 
-![Contributors](https://img.shields.io/github/contributors/devexlead/onboarding-winget) 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Contributors](https://img.shields.io/github/contributors/devexlead/onboarding-winget)
 [![Star this repo](https://img.shields.io/github/stars/devexlead/onboarding-winget?style=social)](https://github.com/devexlead/onboarding-winget/stargazers)
 
 If you find this project helpful, please give it a star 🌟
 
-> [!NOTE] 
+> [!NOTE]
 > If you'd like to incorporate more configuration files to accommodate additional frameworks and technologies, **feel free to raise a PR** to share your changes or improvements. Over time, we can build a robust catalog of configuration files that cover the diverse tools developers commonly use.
 
-
 ## Table of Contents
+
 - [Installation](#installation)
 - [What's Included](#whats-included)
 - [Documentation](#documentation)
@@ -19,6 +19,7 @@ If you find this project helpful, please give it a star 🌟
 
 1. Open a Windows PowerShell terminal
 2. Run the following script
+
 ```powershell
 if (Test-Path 'winget-config.yaml') { Remove-Item -Path 'winget-config.yaml' -Force }; Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/devexlead/onboarding-winget/refs/heads/main/winget-config.yaml' -OutFile 'winget-config.yaml' -Headers @{"Cache-Control"="no-cache"};
 winget configure -f winget-config.yaml
@@ -40,18 +41,17 @@ Here’s the list of applications that will be installed (based on the `winget-c
 9. **Microsoft SQL Server Management Studio (SSMS)**
 10. **Docker Desktop**
 11. **Obsidian**
-11. **ShareX**
-12. **Nuget CLI**
-13. **TreeSize**
-14. **WinMerge**
-15. **PowerShell**
-16. **JanDeDobbeleer.OhMyPosh**
-17. **7Zip**
-18. **GIMP**
-19. **OBSStudio**
-19. **Slack**
+12. **ShareX**
+13. **Nuget CLI**
+14. **TreeSize**
+15. **WinMerge**
+16. **PowerShell**
+17. **JanDeDobbeleer.OhMyPosh**
+18. **7Zip**
+19. **GIMP**
+20. **Microsoft.Sysinternals**
+21. **SqlLite Studio**
 
- 
 Here’s the list of applications that will be installed (based on the `post-install.ps1`):
 
 1. **Node.js (LTS)** via NVM  
