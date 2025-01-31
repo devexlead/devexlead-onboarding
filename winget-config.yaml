@@ -199,6 +199,50 @@ properties:
       settings:
         id: PawelSalawa.SQLiteStudio
         source: winget
-         
 
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: devTunnelsPackage
+      directives:
+        description: Install Microsoft DevTunnels
+        allowPrerelease: false
+      settings:
+        id: Microsoft.devtunnel
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: devProxyPackage
+      directives:
+        description: Install Microsoft DevProxy
+        allowPrerelease: false
+      settings:
+        id: Microsoft.DevProxy
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: webStormPackage
+      directives:
+        description: Install JetBrains WebStorm
+        allowPrerelease: false
+      settings:
+        id: JetBrains.WebStorm
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: firefoxPackage
+      directives:
+        description: Install Firefox Developer Edition
+        allowPrerelease: false
+      settings:
+        id: Mozilla.Firefox.DeveloperEdition
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: windowsTerminalPackage
+      directives:
+        description: Install Microsoft Windows Terminal
+        allowPrerelease: false
+      settings:
+        id: Microsoft.WindowsTerminal
+        source: winget
+        
   configurationVersion: 0.2.0

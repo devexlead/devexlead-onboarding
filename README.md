@@ -36,7 +36,7 @@ Here’s the list of applications that will be installed (based on the `winget-c
 4. **Git**  
 5. **GitHub Desktop**  
 6. **NVM for Windows**  
-7. **RedisInsight**  
+7. **Redis Insight**  
 8. **Amazon NoSQL Workbench**  
 9. **Microsoft SQL Server Management Studio (SSMS)**
 10. **Docker Desktop**
@@ -50,15 +50,21 @@ Here’s the list of applications that will be installed (based on the `winget-c
 18. **7Zip**
 19. **GIMP**
 20. **Microsoft.Sysinternals**
-21. **SqlLite Studio**
+21. **Microsoft DevTunnels**
+22. **Microsoft DevProxy**
+23. **Mozilla Firefox**
+24. **JetBrains WebStorm**
+25. **Windows Terminal**
 
 Here’s the list of applications that will be installed (based on the `post-install.ps1`):
 
 1. **Node.js (LTS)** via NVM  
 2. **Angular CLI**  
-3. **Visual Studio Code Extensions** (including C#, MSSQL, Remote Containers, Remote WSL, AWS Toolkit, GitHub Copilot Chat, Kubernetes Tools, Playwright, PowerShell, and Postman)  
-4. **Internet Information Services (IIS)** (multiple features enabled, such as ASP.NET 4.5, CGI, WebSockets, etc.)  
-5. **Windows Subsystem for Linux (WSL) 2** with **Ubuntu**
+3. **React CLI**  
+4. **Visual Studio Code Extensions** (including C#, MSSQL, Remote Containers, Remote WSL, AWS Toolkit, GitHub Copilot Chat, Kubernetes Tools, Playwright, PowerShell, and Postman)  
+5. **Internet Information Services (IIS)** (multiple features enabled, such as ASP.NET 4.5, CGI, WebSockets, etc.)  
+6. **PSReadLine**
+7. **Windows Subsystem for Linux (WSL) 2** with **Ubuntu**
   
 ## Documentation
 
