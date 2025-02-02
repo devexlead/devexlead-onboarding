@@ -31,6 +31,7 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension garrytrinder.dev-proxy-toolkit
 code --Postman.postman-for-vscode
+code --install-extension ritwickdey.LiveServer
 
 ################################################################################################################################################
 
