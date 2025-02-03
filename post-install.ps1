@@ -74,6 +74,27 @@ New-Item -Path $PROFILE -ItemType File -Force
 Add-Content -Path $PROFILE -Value "Set-PSReadLineOption -PredictionViewStyle ListView -PredictionSource History -HistoryNoDuplicates -MaximumHistoryCount 10000"
 ################################################################################################################################################
 
+# VSCode Settings
+################################################################################################################################################
+Write-Host "Import VSCode Configuration"
+
+Copy-Item -Path ".\settings.json" `
+          -Destination "$env:USERPROFILE\AppData\Roaming\Code\User\settings.json" `
+          -Force `
+          -Verbose
+################################################################################################################################################
+
+# Import Visual Studio Workloads
+################################################################################################################################################
+Write-Host "Download vs_community.exe to $outFilePath."
+$downloadUrl = "https://aka.ms/vs/17/release/vs_community.exe"
+$outFilePath = ".\vs_community.exe"
+Invoke-WebRequest -Uri $downloadUrl -OutFile $outFilePath -UseBasicParsing
+
+Write-Host "Import Visual Studio 2022 Configuration"
+.\vs_community.exe --config ".\workloads.vsconfig" --passive --norestart
+################################################################################################################################################
+
 # WSL 2
 dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
