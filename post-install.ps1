@@ -32,6 +32,9 @@ code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension garrytrinder.dev-proxy-toolkit
 code --Postman.postman-for-vscode
 code --install-extension ritwickdey.LiveServer
+code --install-extension esbenp.prettier-vscode
+code --install-extension burkeholland.simple-react-snippets
+code --install-extension dsznajder.es7-react-js-snippets
 
 ################################################################################################################################################
 
