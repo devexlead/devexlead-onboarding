@@ -10,6 +10,9 @@ npm install -g @angular/cli
 
 # https://create-react-app.dev 
 npm install react-scripts@latest
+
+#https://vite.dev
+npm install -D vite
 ################################################################################################################################################
 
 # Install VSCode Extensions
