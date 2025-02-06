@@ -13,6 +13,13 @@ npm install react-scripts@latest
 
 #https://vite.dev
 npm install -D vite
+
+################################################################################################################################################
+
+# Install .NET Tools
+dotnet tool update --global dotnet-ef
+dotnet tool update --global microsoft.dataapibuilder
+
 ################################################################################################################################################
 
 # Install VSCode Extensions
