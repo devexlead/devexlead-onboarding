@@ -41,6 +41,7 @@ code --install-extension eamodio.gitlens
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension SonarSource.sonarlint-vscode
 code --install-extension garrytrinder.dev-proxy-toolkit
 code --install-extension Postman.postman-for-vscode
 code --install-extension esbenp.prettier-vscode
