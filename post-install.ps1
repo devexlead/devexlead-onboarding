@@ -48,6 +48,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension burkeholland.simple-react-snippets
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension ms-edgedevtools.vscode-edge-devtools
 
 ################################################################################################################################################
 
