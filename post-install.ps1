@@ -50,6 +50,7 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-edgedevtools.vscode-edge-devtools
 code --install-extension bierner.markdown-mermaid
 code --install-extension pflannery.vscode-versionlens
+code --install-extension usernamehw.errorlens
 
 ################################################################################################################################################
 
