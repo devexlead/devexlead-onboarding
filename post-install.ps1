@@ -49,10 +49,13 @@ code --install-extension burkeholland.simple-react-snippets
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-edgedevtools.vscode-edge-devtools
-code --install-extension bierner.markdown-mermaid
 code --install-extension pflannery.vscode-versionlens
 code --install-extension usernamehw.errorlens
 code --install-extension quicktype.quicktype # Paste JSON as Code (C#/TypeScript)
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension bierner.markdown-mermaid
+code --install-extension ms-dotnettools.dotnet-interactive-vscode #Polyglot Notebooks. Use multiple languages (C#, SQL, Mermaid) in one notebook.
+
 
 ################################################################################################################################################
 
