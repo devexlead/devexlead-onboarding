@@ -39,6 +39,7 @@ code --install-extension ms-playwright.playwright
 code --install-extension ms-vscode.PowerShell
 code --install-extension eamodio.gitlens
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension garrytrinder.dev-proxy-toolkit
 code --Postman.postman-for-vscode
