@@ -27,6 +27,7 @@ code --install-extension ms-dotnettools.csharp
 code --install-extension ms-dotnettools.csdevkit
 code --install-extension ms-dotnettools.vscodeintellicode-csharp
 code --install-extension ms-mssql.mssql
+code --install-extension ms-mssql.sql-database-projects-vscode
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension AmazonWebServices.aws-toolkit-vscode
@@ -38,13 +39,23 @@ code --install-extension ms-playwright.playwright
 code --install-extension ms-vscode.PowerShell
 code --install-extension eamodio.gitlens
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension SonarSource.sonarlint-vscode
 code --install-extension garrytrinder.dev-proxy-toolkit
-code --Postman.postman-for-vscode
-code --install-extension ritwickdey.LiveServer
+code --install-extension Postman.postman-for-vscode
 code --install-extension esbenp.prettier-vscode
 code --install-extension burkeholland.simple-react-snippets
 code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension ms-edgedevtools.vscode-edge-devtools
+code --install-extension pflannery.vscode-versionlens
+code --install-extension usernamehw.errorlens
+code --install-extension quicktype.quicktype # Paste JSON as Code (C#/TypeScript)
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension bierner.markdown-mermaid
+code --install-extension ms-dotnettools.dotnet-interactive-vscode #Polyglot Notebooks. Use multiple languages (C#, SQL, Mermaid) in one notebook.
+
 
 ################################################################################################################################################
 
