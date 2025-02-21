@@ -244,5 +244,15 @@ properties:
       settings:
         id: Microsoft.WindowsTerminal
         source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: acrobatReaderPackage
+      directives:
+        description: Install Adobe Acrobat Reader
+        allowPrerelease: false
+      settings:
+        id: Adobe.Acrobat.Reader.64-bit
+        source: winget
+        
         
   configurationVersion: 0.2.0
