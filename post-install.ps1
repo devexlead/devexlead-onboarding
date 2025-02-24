@@ -19,6 +19,7 @@ npm install -D vite
 # Install .NET Tools
 dotnet tool update --global dotnet-ef
 dotnet tool update --global microsoft.dataapibuilder
+dotnet tool install -g microsoft.sqlpackage # Required to generate DACPAC files
 
 ################################################################################################################################################
 
