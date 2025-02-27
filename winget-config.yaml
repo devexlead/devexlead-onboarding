@@ -36,6 +36,15 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vscodeInsidersPackage
+      directives:
+        description: Install Visual Studio Code Insiders
+        allowPrerelease: false
+      settings:
+        id: Microsoft.VisualStudioCode.Insiders
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: dotnetCore9
       directives:
         description: Install .NET Core 9 SDK
