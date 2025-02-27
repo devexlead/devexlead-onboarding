@@ -8,9 +8,6 @@ nvm use lts
 # Install Angular CLI
 npm install -g @angular/cli
 
-# https://create-react-app.dev 
-npm install react-scripts@latest
-
 #https://vite.dev
 npm install -D vite
 
@@ -19,7 +16,8 @@ npm install -D vite
 # Install .NET Tools
 dotnet tool update --global dotnet-ef
 dotnet tool update --global microsoft.dataapibuilder
-dotnet tool install -g microsoft.sqlpackage # Required to generate DACPAC files
+dotnet tool update -g microsoft.sqlpackage # Required to generate DACPAC files
+dotnet tool update -g dotnet-stryker # https://stryker-mutator.io/docs/stryker-net/introduction/
 
 ################################################################################################################################################
 
