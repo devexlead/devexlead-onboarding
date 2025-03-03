@@ -262,6 +262,14 @@ properties:
       settings:
         id: Adobe.Acrobat.Reader.64-bit
         source: winget
-        
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: pcManagerPackage
+      directives:
+        description: Install Microsoft PC Manager
+        allowPrerelease: false
+      settings:
+        id: Microsoft.PCManager
+        source: winget
         
   configurationVersion: 0.2.0
